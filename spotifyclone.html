@@ -72,7 +72,7 @@
                 </div>
                 
                     <h2>Recently Played</h2>
-                    <div class="cards-container">
+                    <div class="card-container">
                         <div class="card">
                             <img src="./assets/card1img.jpeg" alt="img1" class="card-img">
                             <p class="card-title">Top 50 - Global</p>
@@ -82,35 +82,40 @@
 
                     <h2>Trending Near You</h2>
                     <div class="cards-container">
-
-                        <div class="card">
+                         <audio id="audio"></audio>
+                        <div class="card" data-song="./Songs/Song1.mp3">
                             <img src="./assets/card2img.jpeg" alt="img1" class="card-img">
-                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-title">Mahiye jinna sona</p>
                             <p class="card-info">Your daily updates of the most played tracks...</p>
+                            <i id="play-btn" class="fa-solid fa-play" style="font-size: 2rem; cursor: pointer;"></i>
                         </div>
 
-                        <div class="card">
+                        <div class="card" data-song="./Songs/Song2.mp3">   
                             <img src="./assets/card3img.jpeg" alt="img1" class="card-img">
-                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-title">Mere pas tum ho</p>
                             <p class="card-info">Your daily updates of the most played tracks...</p>
+                             <i id="play-btn" class="fa-solid fa-play" style="font-size: 2rem; cursor: pointer;"></i>
                         </div>
 
-                        <div class="card">
+                        <div class="card" data-song="./Songs/Song1.mp3">
                             <img src="./assets/card4img.jpeg" alt="img1" class="card-img">
                             <p class="card-title">Top 50 - Global</p>
                             <p class="card-info">Your daily updates of the most played tracks...</p>
+                             <i id="play-btn" class="fa-solid fa-play" style="font-size: 2rem; cursor: pointer;"></i>
                         </div>
 
-                        <div class="card">
+                        <div class="card" data-song="./Songs/Song1.mp3">
                             <img src="./assets/card3img.jpeg" alt="img1" class="card-img">
                             <p class="card-title">Top 50 - Global</p>
                             <p class="card-info">Your daily updates of the most played tracks...</p>
+                            <i id="play-btn" class="fa-solid fa-play" style="font-size: 2rem; cursor: pointer;"></i>
                         </div>
 
-                        <div class="card">
+                        <div class="card" data-song="./Songs/Song1.mp3">
                             <img src="./assets/card4img.jpeg" alt="img1" class="card-img">
                             <p class="card-title">Top 50 - Global</p>
                             <p class="card-info">Your daily updates of the most played tracks...</p>
+                            <i id="play-btn" class="fa-solid fa-play" style="font-size: 2rem; cursor: pointer;"></i>
                         </div>
         
                     </div>
@@ -180,8 +185,7 @@
                 </div>
 
             </div>
-
-
           </div>
+<script src="Script.js"></script>
 </body>
 </html>
