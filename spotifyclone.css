@@ -353,3 +353,17 @@ width: 25%;
     cursor: pointer;
 }
 
+.card i {
+    cursor: pointer;
+    color: white;             /* icon color */
+    background-color: #1db954; /* Spotify green */
+    padding: 13px;
+    border-radius: 50%;       /* circular button */
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.card i:hover{
+    transform: scale(1.1);    /* slightly enlarge on hover */
+}
